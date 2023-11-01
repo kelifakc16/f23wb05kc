@@ -2,4 +2,13 @@ extends layout
 
 block content
   h1= title
-  p
+
+  .container-fluid
+    .row
+      each employee in results
+        .col-sm-4
+          h4 Employee ID: #{employee.employeeID}
+          p Office Location: #{employee.officeLocation}
+          p Years of Service: #{employee.yearsOfService}
+
+
