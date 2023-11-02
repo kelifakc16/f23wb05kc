@@ -13,10 +13,10 @@ npm start
 1. **employeeID (string):**
    Represents a unique identifier for each employee.
 
-2. **officeLocation (string):**
-   Represents the office location where the employee works.
+2. **year (number):**
+   Represents the  years the employee has been enrolled.
 
-3. **yearsOfService (number):**
-   Represents the number of years the employee has been with the company.
+3. **team (string):**
+   Represents the the employee team.
 
 
